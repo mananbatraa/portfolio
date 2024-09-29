@@ -19,7 +19,7 @@ const Contact = () => {
         try {
             // Replace with your backend server URL
             // const response = await axios.post('http://localhost:5001/api/send-message', formData);
-            const response = await axios.post('/https://portfolio-backend-v8to.onrender.com/api/send-message', formData);
+            const response = await axios.post('https://portfolio-backend-v8to.onrender.com/api/send-message', formData);
             if (response.data.success) {
                 setStatus('Message sent successfully!');
             } else {
