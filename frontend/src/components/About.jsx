@@ -1,5 +1,4 @@
-// About.jsx
-import React, { useState } from 'react';
+import React from 'react';
 import './About.css';
 
 const About = () => {
@@ -10,28 +9,31 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p className="intro-text">
-            I'm a <span>Full Stack Developer</span> with experience in creating <span>high-performance, scalable</span> applications. 
-            I work with a diverse set of tools, including <span>Java, React, Node.js</span>, and other modern web technologies.
+            I'm Manan Batra, a passionate and driven student currently pursuing a 
+            <span> B.Tech in Computer Science and Business Systems</span> at Vellore Institute of Technology.
+            With a strong foundation in <span>software development and business systems</span>, I enjoy solving complex problems
+            and building innovative solutions. From <span>automating business processes to developing real-time Android applications</span>, 
+            I continuously strive to expand my technical skill set and apply it to real-world challenges.
           </p>
           <p>
-            Over the course of my career, I have developed a solid understanding of <span>REST APIs, cloud-based systems</span>, and 
-            improving performance metrics for enterprise applications. My code is always hand-crafted to ensure optimal performance 
-            across devices and platforms.
+            I am skilled in languages such as <span>Java, C++, and Python</span>, and proficient in tools like 
+            <span> GitHub, Firebase, and Android Studio</span>. My experience ranges from internships where I contributed 
+            to process automation to leading teams and organizing events in various extracurricular activities.
           </p>
           <p>
-            I strive to push the boundaries of what's possible in web development, while maintaining the highest standards of 
-            <span>usability</span> and <span>browser compatibility</span>.
+            Whether it's <span>programming, project development,</span> or <span>collaboration on exciting ideas</span>, I am always 
+            eager to learn and grow. Explore my portfolio to see some of the work I’ve done, and feel free to connect!
           </p>
         </div>
 
         <div className="about-image-container">
-          <img src="image.jpg" alt="Nishant Dalal" className="about-image" />
+          <img src="manan_bata.jpg" alt="Manan Batra" className="about-image" />
 
           <div className="about-icons">
-            <a href="https://github.com/nishant0207" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mananbatraa" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://leetcode.com/u/dalalnishant0207/" target="_blank" rel="noopener noreferrer">
+            <a href="https://leetcode.com/u/mananbatraa/" target="_blank" rel="noopener noreferrer">
               <i className="fas fa-code"></i>
             </a>
           </div>
@@ -39,7 +41,7 @@ const About = () => {
       </div>
 
       <div className="resume-button">
-        <a href="https://drive.google.com/file/d/1mIzcIVA2mHREWk9Jxvk72-7zScg7ZNqR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1heezpijDJNqfGV-g1oyDspflwk8Ml_0W/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           Download CV (PDF)
         </a>
       </div>

@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 80%;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   gap: 30px; /* Add spacing between text and icons */
   position: relative;
@@ -35,9 +35,10 @@
 }
 
 .about-text .intro-text {
-  font-size: 22px;
+  font-size: 20px;
   font-style: italic;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .about-text p {
@@ -75,12 +76,13 @@
 /* Image Styling */
 .about-image {
   width: 300px;
-  max-width: 300px; /* Restrict maximum size of image */
-  border-radius: 50%;
+  height: 300px; /* Ensure height matches width for a perfect circle */
+  border-radius: 50%; /* This makes it a circle */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
-  object-fit: cover;
+  object-fit: cover; /* Ensures the image fits well inside the circle */
   margin-bottom: 20px;
 }
+
 
 /* Resume Button */
 .resume-button {

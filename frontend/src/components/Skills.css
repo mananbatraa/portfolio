@@ -13,7 +13,12 @@
     color: #000;
     text-align: center;
 }
-
+h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #f0a500;
+    text-align: center;
+}
 .skills-container {
     margin-bottom: 50px;
 }
@@ -203,3 +208,126 @@
         font-size: 20px;
     }
 }
+/* Languages Known Section */
+.languages-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #f0a500;
+    text-align: center;
+}
+
+.languages-container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.languages-list {
+    list-style-type: none;
+    padding: 10;
+    text-align: center;
+}
+
+.language-item {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 10px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.language-item:hover {
+    background-color: #f0a500;
+    color: #111;
+}
+
+/* Responsive styling for Languages Known */
+@media (max-width: 768px) {
+    .language-item {
+        width: 150px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .languages-title {
+        font-size: 28px;
+    }
+
+    .language-item {
+        width: 120px;
+        font-size: 16px;
+    }
+}
+/* Tools and Platforms Section */
+.tools-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #f0a500;
+    text-align: center;
+}
+
+.tools-container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+
+.tools-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.tool-item {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.tool-item:hover {
+    background-color: #f0a500;
+    color: #111;
+}
+
+/* Responsive styling for Tools and Platforms */
+@media (max-width: 768px) {
+    .tool-item {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    .tools-container {
+        justify-content: center; /* Center the items on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .tools-title {
+        font-size: 28px;
+    }
+
+    .tool-item {
+        width: 120px;
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+

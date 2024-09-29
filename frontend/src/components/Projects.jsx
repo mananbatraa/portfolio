@@ -42,8 +42,12 @@ const projectsData = [
 
 const Projects = () => {
   return (
+    
     <div className="projects-section">
-      <h1 className="projects-title" style={{color:'black'}}>&lt;projects&gt;</h1>
+      <h1 class="projects-title">
+  <span>&lt;</span><span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span><span>&gt;</span>
+</h1>
+
       <div className="projects-grid">
         {projectsData.map((project, index) => (
           <div key={index} className="project-card">
@@ -63,6 +67,7 @@ const Projects = () => {
       </div>
     </div>
   );
+  
 };
 
 export default Projects;

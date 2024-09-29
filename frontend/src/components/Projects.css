@@ -1,16 +1,65 @@
 /* Projects.css */
 .projects-section {
   padding: 50px;
-  background-color: #ffffff;
+  background-color: #111;
   color: #f4f4f4;
   text-align: center;
 }
 
 .projects-title {
+  
   font-size: 48px;
   margin-bottom: 50px;
   font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
 }
+
+.projects-title span {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects-title:hover span {
+  animation: bounce 0.5s ease-in-out ;
+}
+
+.projects-title span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.projects-title span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.projects-title span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.projects-title span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.projects-title span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.projects-title span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.projects-title span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.projects-title span:nth-child(9) {
+  animation-delay: 0.78s;
+}
+/* Add more nth-child for additional letters */
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 
 .projects-grid {
   display: grid;

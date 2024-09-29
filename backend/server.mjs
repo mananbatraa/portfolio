@@ -22,7 +22,7 @@ app.get('/api/leetcode-stats', async (req, res) => {
       }
     }
   `;
-  const variables = { username: 'mananbatraa' };
+  const variables = { username: 'mananbatra' };
 
   try {
     const response = await axios.post('https://leetcode.com/graphql', {

@@ -10,12 +10,12 @@ const Contact = () => {
             <div className="contact-details">
                 <div className="contact-item">
                     <i className="fas fa-envelope"></i>
-                    <p>Email: <a href="mailto:dalalnishant0207@gmail.com">dalalnishant0207@gmail.com</a></p>
+                    <p>Email: <a href="mailto:mananbatra2003.mb@gmail.com">mananbatra2003.mb@gmail.com</a></p>
                 </div>
                 
                 <div className="contact-item">
                     <i className="fab fa-linkedin"></i>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/ndalal0207/" target="_blank" rel="noreferrer">ndalal0207</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/mananbatra03/" target="_blank" rel="noreferrer">mananbatra03</a></p>
                 </div>
             </div>
         </div>
