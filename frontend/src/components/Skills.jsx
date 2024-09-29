@@ -11,7 +11,8 @@ const Skills = () => {
   useEffect(() => {
     const fetchLeetCodeStats = async () => {
       try {
-        const response = await axios.get('http://localhost:5001/api/leetcode-stats');
+        // const response = await axios.get('http://localhost:5001/api/leetcode-stats');
+        const response = await axios.get('https://portfolio-backend-v8to.onrender.com/api/leetcode-stats');
         const data = response.data;
         setLeetcodeStats(data);
       } catch (error) {
