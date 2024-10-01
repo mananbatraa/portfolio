@@ -65,7 +65,7 @@
 
 .about-image {
   width: 300px;
-  max-width: 100%;
+  max-width: 200%;
   border-radius: 50%;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
   object-fit: cover;

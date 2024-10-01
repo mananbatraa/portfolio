@@ -37,27 +37,27 @@ const Contact = () => {
             <div className="contact-details">
                 <div className="contact-item">
                     <i className="fas fa-envelope"></i>
-                    <p>Email: <a href="mailto:dalalnishant0207@gmail.com">dalalnishant0207@gmail.com</a></p>
+                    <p>Email: <a href="mailto:mananbatra2003.mb@gmail.com">mananbatra2003.mb@gmail.com</a></p>
                 </div>
 
                 <div className="contact-item">
                     <i className="fab fa-linkedin"></i>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/ndalal0207/" target="_blank" rel="noreferrer">ndalal0207</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/mananbatra03/" target="_blank" rel="noreferrer">mananbatra03</a></p>
                 </div>
 
                 <div className="contact-item">
                     <i className="fab fa-github"></i>
-                    <p>GitHub: <a href="https://github.com/nishant0207" target="_blank" rel="noreferrer">nishant0207</a></p>
+                    <p>GitHub: <a href="hhttps://github.com/mananbatraa" target="_blank" rel="noreferrer">mananbatraa</a></p>
                 </div>
 
                 <div className="contact-item">
                     <i className="fas fa-map-marker-alt"></i>
-                    <p>Location: <span>New Delhi, India</span></p>
+                    <p>Location: <span>Faridabad, India</span></p>
                 </div>
 
                 <div className="contact-item">
                     <i className="fas fa-file-download"></i>
-                    <p><a href="https://drive.google.com/file/d/1mIzcIVA2mHREWk9Jxvk72-7zScg7ZNqR/view?usp=sharing" target='_blank' rel='noopener noreferrer'  download>Download Resume</a></p>
+                    <p><a href="https://drive.google.com/file/d/1heezpijDJNqfGV-g1oyDspflwk8Ml_0W/view" target='_blank' rel='noopener noreferrer'  download>Download Resume</a></p>
                 </div>
             </div>
 
