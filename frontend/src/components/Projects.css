@@ -67,6 +67,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  justify-content: center; /* Center-aligns items horizontally */
 }
 
 .tech-item {
@@ -77,6 +78,7 @@
   display: inline-block;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 
 .tech-item:hover {
   background-color: #111;

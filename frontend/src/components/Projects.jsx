@@ -7,15 +7,22 @@ const projectsData = [
     title: 'Room Connect',
     description: 'A web application for managing and sharing room information for VIT students with features like taxi sharing and WhatsApp group integration.',
     techStack: ['React.js', 'Firebase'],
-    liveDemo: 'https://room-connect.vercel.app/',
+    liveDemo: '',
     github: 'https://github.com/nishant0207/room_connect',
   },
   {
-    title: 'MailChamp.Ai',
-    description: 'An automated email solution using MailChamp API, providing tailored email distribution and analytics for campaigns.',
-    techStack: ['Node.js', 'React.js', 'MongoDB', 'Python'],
-    liveDemo: 'https://mailchamp.ai/about',
-    github: 'https://github.com/your-github-link-for-MailChamp',
+    title: 'Phishing Detector',
+    description: 'A URL Phishing Detection Model to identify malicious links by analyzing domain structure, keywords, and patterns indicative of phishing. Trained on extensive datasets, enabling real-time classification of URLs as legitimate or fraudulent to enhance cybersecurity defenses.',
+    techStack: ['Python', 'MongoDB','Docker'],
+    liveDemo: '',
+    github: 'https://github.com/mananbatraa/phishing_detector',
+  },
+  {
+    title: 'GPS Tracker',
+    description: 'An Android application enabling real-time location tracking with current address and geo-coordinates, featuring location saving and toggleable tracking functionality.',
+    techStack: ['Java', 'Google Map API'],
+    liveDemo: '',
+    github: 'https://github.com/mananbatraa/GPS-TRACKER',
   },
   {
     title: 'School Management System',
@@ -25,25 +32,11 @@ const projectsData = [
     github: 'https://github.com/nishant0207/school_management_project_MERN',
   },
   {
-    title: 'Podcast App',
-    description: 'An Android podcast application with seamless playback, user authentication via Firebase, and custom UI using Jetpack Compose.',
-    techStack: ['Kotlin', 'Jetpack Compose', 'Firebase'],
-    liveDemo: '', // Link to GitHub for this project
-    github: 'https://github.com/nishant0207/PodKast',
-  },
-  {
-    title: 'Ethereum Transactions Tracker',
-    description: 'This project monitors Ethereum blockchain deposits in real-time, stores the deposit details in a MongoDB database, and sends instant Telegram alerts whenever a new deposit is detected. It uses the Alchemy API to interact with the Ethereum blockchain and the ethers.js library to fetch transaction data.',
-    techStack: ['Node.js', 'Express.js', 'Ethers.js', 'MongoDB', 'Winston', 'Telegram Bot API', 'Alchemy API'],
+    title: 'CommuniCat',
+    description: 'An Android application facilitating real-time group chat and user profile management to enhance communication experiences for diverse users.',
+    techStack: ['Java', 'Firebase'],
     liveDemo: '', // No demo link available
-    github: 'https://github.com/your-github-link-for-think-project', // Add the GitHub repo link here
-  },
-  {
-    title: 'File Sharing System Backend',
-    description: 'This project implements a file-sharing backend system using Go, AWS S3, PostgreSQL, Redis, JWT-based authentication, and WebSockets for real-time notifications. The system allows users to upload, retrieve, share, search, and delete files securely. It also includes periodic file expiration and deletion functionality.',
-    techStack: ['Go', 'PostgreSQL', 'Redis', 'AWS S3', 'JWT', 'WebSockets'],
-    liveDemo: '', // No demo link available
-    github: 'https://github.com/your-github-link-for-think-project', // Add the GitHub repo link here
+    github: 'https://github.com/mananbatraa/COMMUNICAT', // Add the GitHub repo link here
   }
 ];
 
